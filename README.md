@@ -1,7 +1,8 @@
 # Numbered tabs
 
 A simple chrome extension that adds a number before the tab title.  
-Helpful for those who use the keyboard shortcut `⌘/Ctrl + <num>` to switch between tabs.
+Helpful for those who use the keyboard shortcut <kbd>⌘</kbd>/<kbd>Ctrl</kbd> + <kbd>num</kbd>
+to switch between tabs.
 
 ![example-image](screenshot.png)
 
