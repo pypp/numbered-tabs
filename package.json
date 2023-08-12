@@ -4,8 +4,9 @@
   "description": "Add a numeric prefix before the tab's title.",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf dist/",
     "build": "webpack --config webpack/webpack.config.js",
-    "clean": "rm -rf dist/"
+    "zip": "zip -r extension.zip dist/"
   },
   "license": "MIT",
   "devDependencies": {

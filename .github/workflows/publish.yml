@@ -19,11 +19,13 @@ jobs:
       - name: Build
         run: |
           npm ci
+          npm run clean
           npm run build
+          npm run zip
       - name: Upload & release
         uses: mnao305/chrome-extension-upload@v4.0.1
         with:
-          file-path: dist/file.zip
+          file-path: dist/extension.zip
           extension-id: hogefuga(oiofagafohgjohjimdgaggjabocbhckl)
           client-id: ${{ secrets.CLIENT_ID }}
           client-secret: ${{ secrets.CLIENT_SECRET }}
