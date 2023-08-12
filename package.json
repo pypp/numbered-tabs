@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist/",
     "build": "webpack --config webpack/webpack.config.js",
-    "zip": "zip -r extension.zip dist/"
+    "zip": "zip -r dist/extension.zip dist/"
   },
   "license": "MIT",
   "devDependencies": {
