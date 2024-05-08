@@ -1,3 +1,5 @@
+# Fork of https://github.com/narinluangrath/numbered-tabs
+
 # Numbered tabs
 
 A simple chrome extension that adds a number before the tab title.  
